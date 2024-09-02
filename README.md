@@ -16,19 +16,19 @@ These two folders contain the primary experimental content and scripts:
 - **SG_jitter**: Contains scripts focused on analyzing and modeling the jitter sequence extracted from the F10.7 data.
 - **SG_smooth**: Contains scripts dedicated to analyzing and modeling the smoothed F10.7 sequence.
 
-#### 3. Models, Utils, Layers
+#### Models, Utils, Layers
 These folders contain the core components for building and training the models:
 
 - **models**: Contains the model architectures used for F10.7 prediction.
 - **utils**: Utility functions used throughout the project for data processing, analysis, and evaluation.
 - **layers**: Custom layers and modules designed to enhance the models' predictive capabilities.
 
-#### 4. Main Program and Configuration
+#### Main Program and Configuration
 
 - **exp folder**: Houses the main scripts that drive the experiments, coordinating the data flow and model interactions.
 - **run.py**: The central script for configuring, training, and testing the models. This script allows for flexible experimentation by adjusting parameters and settings directly within the configuration.
 
-### 5. Institution_data
+### 3. Institution_data
 The `institution_data` folder stores prediction data provided by various reputable institutions:
 
 - **SWPC**: Data from the Space Weather Prediction Center.
@@ -42,3 +42,7 @@ To run this project, you'll need the following dependencies:
 
 - Python 3.8
 - Required Python libraries (listed in `requirements.txt`)
+
+  
+## Acknowledgements
+We gratefully acknowledge the Dominion Radio Astrophysical Observatory (Penticton, Canada) for providing the F10.7 indices, as well as the National Oceanic and Atmospheric Administration and the Space Weather Prediction Center for their contributions to the dataset. We also acknowledge the support of the Strategic Priority Research Program of the Chinese Academy of Sciences (No. XDB0560000).
