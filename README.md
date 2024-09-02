@@ -16,14 +16,14 @@ These two folders contain the primary experimental content and scripts:
 - **SG_jitter**: Contains scripts focused on analyzing and modeling the jitter sequence extracted from the F10.7 data.
 - **SG_smooth**: Contains scripts dedicated to analyzing and modeling the smoothed F10.7 sequence.
 
-### 3. Models, Utils, Layers
+#### 3. Models, Utils, Layers
 These folders contain the core components for building and training the models:
 
 - **models**: Contains the model architectures used for F10.7 prediction.
 - **utils**: Utility functions used throughout the project for data processing, analysis, and evaluation.
 - **layers**: Custom layers and modules designed to enhance the models' predictive capabilities.
 
-### 4. Main Program and Configuration
+#### 4. Main Program and Configuration
 
 - **exp folder**: Houses the main scripts that drive the experiments, coordinating the data flow and model interactions.
 - **run.py**: The central script for configuring, training, and testing the models. This script allows for flexible experimentation by adjusting parameters and settings directly within the configuration.
