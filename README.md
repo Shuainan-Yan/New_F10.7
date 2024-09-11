@@ -27,6 +27,11 @@ These folders contain the core components for building and training the models:
 
 - **exp folder**: Houses the main scripts that drive the experiments, coordinating the data flow and model interactions.
 - **run.py**: The central script for configuring, training, and testing the models. This script allows for flexible experimentation by adjusting parameters and settings directly within the configuration.
+- 
+#### Schematic of the proposed F10.7 prediction strategy
+The model structure of the new prediction strategy proposed in this paper is as follows:
+![Diagram of the model structure](imgs/model_2.png)
+
 
 ### 3. Institution_data
 The `institution_data` folder stores prediction data provided by various reputable institutions:
